@@ -40,7 +40,32 @@ These are the elements outlined in John Gruber’s original design document. All
 
 ### Code
 
-`code`
+#### 解決背包問題(Python程式碼)，使用動態規劃方法：
+
+```Python
+def knapsack(weights, values, capacity):
+    n = len(values)
+    # dp = [[0 for _ in range(capacity + 1)] for _ in range(n + 1)]
+    dp = [[0] * (capacity+1) for _ in range(n + 1)]
+
+    for i in range(1, n + 1):
+        for j in range(1, capacity + 1):
+            w,v = weights[i-1],values[i-1]
+            if w > j:
+                dp[i][j] = dp[i-1][j]
+            else:
+                dp[i][j] = max(dp[i-1][j], dp[i-1][j-w] + v)
+
+    return dp[n][capacity]
+
+# Example input
+weights = [3,4,7,3,2]
+values = [4,5,10,8,6]
+capacity = 10
+
+print("Maximum value that can be obtained:", knapsack(weights, values, capacity))
+```
+
 
 ### Horizontal Rule
 
@@ -67,7 +92,7 @@ These elements extend the basic syntax by adding additional features. Not all Ma
 
 ### Fenced Code Block
 
-```
+```JSON
 {
   "firstName": "John",
   "lastName": "Smith",
@@ -118,4 +143,18 @@ H<sub>2</sub>O, CO<sub>2</sub>
 
 *3X<sup>2</sup> + 2X + 3 = 10*
 
+### Markdown+Math
+
 $x^2+2x+3$ 
+
+$\int_0^\infty \frac{x^3}{e^x-1}\,dx = \frac{\pi^4}{15}$
+
+Write normal distribution in Latex
+
+$f(x) = \frac{1}{\sigma\sqrt{2\pi}}\exp\left( -\frac{1}{2}\left(\frac{x-\mu}{\sigma}\right)^{\!2}\,\right)$
+
+$f(x)=\frac{1}{{\sigma\sqrt{2\pi}}}e^{-\frac{(x-\mu)^{2}}{2\sigma^{2}}}$
+
+$X \sim \mathcal{N}(\mu,\sigma^2)$
+
+$f(x)=\frac{1}{\sigma\sqrt{2\pi}}\exp{[-\frac{(x-\mu)^{2}}{2\sigma^{2}}]}$
