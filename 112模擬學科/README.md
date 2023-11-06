@@ -3,8 +3,11 @@
 #### 1
 1.執行以下Python程式片段，其結果為何？
 
+
+|||||
 |-|-|-|-|
 | (A) 0  | (B) 1  | (C) 2  | (D) 3 |
+
 
 
 Question
@@ -28,3 +31,12 @@ graph TD;
     B-->D;
     C-->D;
 ```
+
+test
+
+```mermaid
+graph LR
+    fa:fa-check-->fa:fa-coffee
+```
+
+
