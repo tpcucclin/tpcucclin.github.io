@@ -117,3 +117,5 @@ H<sub>2</sub>O, CO<sub>2</sub>
 ### Superscript
 
 *3X<sup>2</sup> + 2X + 3 = 10*
+
+$x^2+2x+3$ 
