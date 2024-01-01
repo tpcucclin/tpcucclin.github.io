@@ -28,4 +28,8 @@ subarray_length = 3
 result = convert_to_2d_array(input_array, subarray_length)
 print(result)
 ```
+
+範例:
+> 寫一個 Python 將變數 s 轉成 float
+> s="2,700,00"
 ---
