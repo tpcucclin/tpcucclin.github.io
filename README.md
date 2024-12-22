@@ -1,6 +1,6 @@
 #### Github 推薦學習
 
-- [使用 GitHub Pages 發布，現在就像 1、2、3 一樣簡單](https://github.blog/2016-12-09-publishing-with-github-pages-now-as-easy-as-1-2-3/)
+- [從零開始: 用github pages 上傳靜態網站](https://medium.com/%E9%80%B2%E6%93%8A%E7%9A%84-git-git-git/%E5%BE%9E%E9%9B%B6%E9%96%8B%E5%A7%8B-%E7%94%A8github-pages-%E4%B8%8A%E5%82%B3%E9%9D%9C%E6%85%8B%E7%B6%B2%E7%AB%99-fa2ae83e6276/)
 
 
 
@@ -14,7 +14,24 @@ graph TD;
     C-->D;
 ```
 
-以下是根據您提供的內容所製作的表格：
+Q: 請抽選10個高中英文 level 2 單字，製作成表格，第一欄是level ，第二欄是單字，第三欄寫英文解釋，第四欄寫中文解釋，第五欄是日常用語的造句，每個單字做兩個日常用語的造句
+
+A: 以下是製作好的表格，包括10個高中英文 Level 2 單字，對應的英文解釋、中文解釋，以及日常用語造句：
+
+| **Level** | **單字**   | **英文解釋**                                    | **中文解釋**      | **日常用語造句**                                                                                       |
+|-----------|------------|------------------------------------------------|-------------------|--------------------------------------------------------------------------------------------------------|
+| 2         | appreciate | To recognize the value or importance of something | 欣賞；感激         | 1. I appreciate your advice on this project. <br> 2. We appreciate the support from our friends.       |
+| 2         | benefit    | An advantage or profit gained from something  | 好處；利益         | 1. This new program will benefit many students. <br> 2. A balanced diet has many health benefits.      |
+| 2         | challenge  | Something that tests one's abilities or determination | 挑戰              | 1. Learning a new language is always a challenge. <br> 2. She took the challenge and succeeded.        |
+| 2         | communicate| To share information, thoughts, or feelings effectively | 溝通；傳達        | 1. Good leaders communicate their vision clearly. <br> 2. We need to communicate more effectively.     |
+| 2         | determine  | To decide or conclude something after careful consideration | 決定；確定         | 1. The jury will determine the verdict soon. <br> 2. I determined to finish the task today.            |
+| 2         | encourage  | To give support, confidence, or hope to someone | 鼓勵              | 1. Teachers should encourage students to ask questions. <br> 2. Her words encouraged me to keep going. |
+| 2         | explore    | To travel or investigate a place or topic thoroughly | 探索；研究         | 1. We want to explore the possibilities of this technology. <br> 2. Let's explore the park this afternoon. |
+| 2         | improve    | To make something better                      | 改善；提高         | 1. She is working hard to improve her grades. <br> 2. This practice will improve your pronunciation.   |
+| 2         | influence  | The capacity to have an effect on someone's actions or opinions | 影響              | 1. Parents can strongly influence their children's behavior. <br> 2. The book had a big influence on me. |
+| 2         | recognize  | To identify someone or something from previous experience | 認出；承認         | 1. I recognize that song from the radio. <br> 2. He was recognized for his contributions to the community. |
+
+單字練習
 
 | 單字 | 英文解釋 | 中文解釋 | 日常用語造句 |
 | --- | --- | --- | --- |
@@ -28,5 +45,3 @@ graph TD;
 | Overview | A general summary or description of something | 概述；總覽 | 1. The professor provided an overview of the course syllabus on the first day of class. <br> 2. The travel guide gives an overview of the popular attractions in the city. |
 | Advantages | Benefits or positive aspects of something | 優點；利益 | 1. One of the advantages of living in a city is the easy access to various amenities. <br> 2. The new technology offers several advantages over the old system. |
 | Disadvantages | Drawbacks or negative aspects of something | 缺點；劣勢 | 1. The main disadvantage of the product is its high price. <br> 2. Moving to a remote location has both advantages and disadvantages. |
-
-希望這份表格能對您有所幫助！如有其他問題，請隨時提出。
